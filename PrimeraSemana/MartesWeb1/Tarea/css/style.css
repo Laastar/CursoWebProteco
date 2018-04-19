@@ -1,0 +1,81 @@
+body
+{
+	background: black;
+	color: white;
+}
+
+div
+{
+	color: black;
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	font-size: 30px;
+	margin: 5px;
+}
+
+.OtrosDatos
+{
+	text-align: center;
+	background-color: grey;
+	color: black;
+}
+
+.formacion
+{
+	background-color: lightblue;
+	color: black;
+}
+
+nav a, footer a
+{
+	display: inline-block;
+	width: 200px;
+	height: 20px;
+	text-decoration: none;
+	background-color: #0A0A2A;
+	color: #fff;
+}
+
+#imagen
+{
+	background: orange;
+	color: black;
+	border: 20px;
+	margin: 30px;
+	padding: 30px;
+}
+
+img
+{
+	width: 60%;
+}
+
+.formacion
+{
+	width: 45%;
+}
+
+li:hover a
+{
+	background-color: black;
+}
+
+footer
+{
+	font-family: 'Gamja Flower', cursive;
+	height: 70px;
+	background: white;
+}
+
+table, th, td
+{
+	border: 2px solid rgb(28,58, 64);
+	width: 30%;
+}
+
+section.bio
+{
+	width: 50%;
+	text-align: justify;
+}
