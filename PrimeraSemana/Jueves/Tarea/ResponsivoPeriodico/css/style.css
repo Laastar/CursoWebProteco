@@ -1,0 +1,58 @@
+h1
+{
+	text-indent: 15%;
+	color: white;
+}
+
+
+p
+{
+	width: 80%;
+	text-align: justify;
+	color: white;
+}
+
+.Contenido
+{
+	background-color: lightblue;
+	color: black;
+	text-align: center;
+	padding: 10px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+@media screen and (max-width: 1800px) and (min-width: 992px)
+{
+	body
+	{
+		background-color: black;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 600px)
+{
+	body
+	{
+		background: #4db6ac;
+	}
+
+	h1
+	{
+		color: black;
+	}
+
+	p
+	{
+		color: black;
+	}
+}
+
+@media screen and (max-width: 400px) and (min-width: 0px)
+{
+	body
+	{
+		background: #004d40;
+		color: black;
+	}
+}
